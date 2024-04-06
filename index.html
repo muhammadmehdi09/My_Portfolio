@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+      @keyframes animate {
+    100% {
+      transform: scaleX(1);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    html {
+      font-size: 60%;
+    }
+  
+    .skills {
+      width: 100%;
+    }
+  
+    .skills-bar .bar .progress-line {
+      width: 100%;
+    }
+  
+    .contact-content {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 501px) and (max-width: 768px) {
+    html {
+      font-size: 65%;
+    }
+  
+    .skills {
+      width: 100%;
+    }
+  
+    .skills-bar .bar .progress-line {
+      width: 100%;
+    }
+  
+    .contact-content {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1200px) {
+    html {
+      font-size: 70%;
+    }
+  
+    .about-content .left-content {
+      flex-basis: 100%;
+      text-align: center;
+    }
+  
+    .about-content .right-content {
+      flex-basis: 100%;
+    }
+  
+    .skills {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .contact-content {
+      width: 100%;
+    }
+  }
+  </style>
+  <title>Muhammad Mehdi</title>
+</head>
+
+<body>
+  <div class=''>
+    <header class='header bg-[#25b79f] h-screen'>
+      <nav class='navbar fixed w-full z-[500]'>
+        <div class='navbar-max-w-[1200px] flex justify-between items-center h-16 max-w-[1200px] w-[90%] m-auto'>
+          <div class="mt-6 hidden min-[625px]:flex">
+            <img src="Logo.png" class="w-12 mr-4">
+            <h1
+              class='font-semibold text-xl inline-block text-[#f0f0e6] transition-[color] duration-[1s] ease-[ease] delay-[0s] mt-2'>
+              Muhammad Mehdi</h1>
+          </div>
+          <ul class='menu-items flex'>
+            <li class="p-4"><a href='#home'
+                class="no-underline text-[#f0f0e6] text-[1.2rem] p-[0.3rem] hover:border-b-2 hover:border-b-[#f0f0e6] hover:border-solid">Home</a>
+            </li>
+            <li class="p-4"><a href='#about'
+                class="no-underline text-[#f0f0e6] text-[1.2rem] p-[0.3rem] hover:border-b-2 hover:border-b-[#f0f0e6] hover:border-solid">About</a>
+            </li>
+            <li class="p-4"><a href='#contact-me'
+                class="no-underline text-[#f0f0e6] text-[1.2rem] p-[0.3rem] hover:border-b-2 hover:border-b-[#f0f0e6] hover:border-solid">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class='home-content' id='home'>
+        <div
+          class='absolute -translate-x-2/4 -translate-y-2/4 text-[#07374a] w-full text-center left-2/4 top-[47%] text-5xl'>
+          <h1 class='text-[4.4rem] text-center'>Hi, I'm Muhammad Mehdi</h1>
+          <p class="text-[#f0f0e6] text-5xl">A Web Developer in training.</p>
+        </div>
+      </div>
+    </header>
+    <section class='bg-[#07374a] px-0 py-24' id='about'>
+      <div class='flex flex-wrap max-w-[1200px] w-[90%] m-auto'>
+        <div class='mx-auto basics-[100] md:basis-[45%] text-center'>
+          <div>
+            <h1 class='text-[#25b79f] text-[2rem] font-semibold text-center'>About Me</h1>
+          </div>
+          <img src='https://i.postimg.cc/Hx4nChpH/fbavatar-1630400663387-6838396024049256103.png' alt='image'
+            class='mx-auto h-[200px] w-[150px] object-cover rounded-[50%]' />
+          <p class="text-[1.2rem] text-[#f0f0e6] text-center px-[2.3rem] py-0">
+            I am 13 year old, Web Devoloper, and I am currently giving Cambridge IGCSE Papers and learning to code.
+            I really enjoy solving problems, programming and as well as making things easy to use. I love learning new
+            things; the more, the better.
+          </p>
+        </div>
+        <div class='mx-auto skills basics-[100] md:basis-[45%]'>
+          <div>
+            <h1 class='text-[2rem] font-semibold text-[#25b79f] text-center'>My Skills</h1>
+          </div>
+          <div class='skills-bar px-[30px] py-[25px]'>
+            <div class='bar mx-0 my-[25px]'>
+              <div>
+                <div class='text-[#f0f0e6] mb-2'>
+                  <span class="text-base font-medium">TAILWIND CSS</span>
+                </div>
+                <div
+                  class='progress-line relative h-2.5 w-[550px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
+                  <span
+                    class='w-[95%] after:content-["95%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 c'></span>
+                </div>
+              </div>
+
+              <div>
+                <div class='text-[#f0f0e6] mb-2'>
+                  <span class="text-base font-medium">HTML</span>
+                </div>
+                <div
+                  class='progress-line relative h-2.5 w-[550px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
+                  <span
+                    class='w-[90%] after:content-["90%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7'></span>
+                </div>
+              </div>
+
+              <div>
+                <div class='text-[#f0f0e6] mb-2'>
+                  <span class="text-base font-medium">CSS</span>
+                </div>
+                <div
+                  class='progress-line relative h-2.5 w-[550px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
+                  <span
+                    class='w-[85%] after:content-["85%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 css'></span>
+                </div>
+              </div>
+
+              <div>
+                <div class='text-[#f0f0e6] mb-2'>
+                  <span class="text-base font-medium">JAVASCRIPT</span>
+                </div>
+                <div
+                  class='progress-line relative h-2.5 w-[550px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
+                  <span
+                    class='w-[75%] after:content-["75%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 javascript'></span>
+                </div>
+              </div>
+
+              <div>
+                <div class='text-[#f0f0e6] mb-2'>
+                  <span class="text-base font-medium">TYPESCRIPT</span>
+                </div>
+                <div
+                  class='progress-line relative h-2.5 w-[550px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
+                  <span
+                    class='w-[60%] after:content-["60%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 bootstrap'></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  </section>
+  <div class='contact bg-[#25b79f] relative h-[92vh]' id='contact-me'>
+    <div class='max-w-[1200px] w-[90%] m-auto'>
+      <div class='contact-content absolute -translate-x-2/4 -translate-y-2/4 text-center left-2/4 top-2/4'>
+        <h2 class="text-[2.5rem] font-normal text-[#07374a] pb-2">Contact Me</h2>
+        <p class='text-[#f0f0e6] text-base pb-[0.2rem]'>
+          Get in touch with me on muhammadmehdi09@gmail.com
+        </p>
+        <p class='text-[#07374a] text-base pb-[1.8rem] p-2'>Or find me on:</p>
+        <a class="no-underline text-[#07374a] transition-[0.3s] duration-[ease-in-out] p-2 hover:text-[#f0f0e6]"
+          href='https://github.com/muhammadmehdi09' target='blank'><i class='fab fa-github'></i>Github</a>
+        <p>AND</p>
+        <a class="no-underline text-[#07374a] transition-[0.3s] duration-[ease-in-out] p-2 hover:text-[#f0f0e6]"
+          href='https://www.linkedin.com/in/muhammadmehdi09/' target='blank'><i class='fab fa-linkedin'>Linkedin</i></a>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
