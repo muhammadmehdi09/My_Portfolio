@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes animate {
+    100% {
+      transform: scaleX(1);
+    }
+  }
+
+  @media (max-width: 500px) {
+    html {
+      font-size: 60%;
+    }
+  }
