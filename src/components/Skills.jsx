@@ -14,7 +14,7 @@ const Skills = () => {
           <div
             className='relative h-2.5 w-[200px] min-[300px]:w-[250px] min-[400px]:w-[350px] sm:w-[500px] md:w-[600px] lg:w-[700px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
             <span
-              className='w-[95%] after:content-["95%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 c'></span>
+              className='w-[100%] after:content-["100%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 c'></span>
           </div>
         </div>
 
@@ -36,7 +36,7 @@ const Skills = () => {
           <div
             className='relative h-2.5 w-[200px] min-[300px]:w-[250px] min-[400px]:w-[350px] sm:w-[500px] md:w-[600px] lg:w-[700px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
             <span
-              className='w-[90%] after:content-["90%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7'></span>
+              className='w-[95%] after:content-["95%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7'></span>
           </div>
         </div>
 
@@ -47,7 +47,7 @@ const Skills = () => {
           <div
             className='relative h-2.5 w-[200px] min-[300px]:w-[250px] min-[400px]:w-[350px] sm:w-[500px] md:w-[600px] lg:w-[700px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
             <span
-              className='w-[85%] after:content-["85%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 css'></span>
+              className='w-[95%] after:content-["95%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 css'></span>
           </div>
         </div>
 
@@ -97,7 +97,7 @@ const Skills = () => {
 
         <div className="mx-auto">
           <div className='text-[#f0f0e6] mb-2'>
-            <span className="text-base font-medium">PYTHON</span>
+            <span className="text-base font-medium">REACT JS</span>
           </div>
           <div
             className='relative h-2.5 w-[200px] min-[300px]:w-[250px] min-[400px]:w-[350px] sm:w-[500px] md:w-[600px] lg:w-[700px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
@@ -108,7 +108,7 @@ const Skills = () => {
 
         <div className="mx-auto">
           <div className='text-[#f0f0e6] mb-2'>
-            <span className="text-base font-medium">REACT JS</span>
+            <span className="text-base font-medium">PYTHON</span>
           </div>
           <div
             className='relative h-2.5 w-[200px] min-[300px]:w-[250px] min-[400px]:w-[350px] sm:w-[500px] md:w-[600px] lg:w-[700px] bg-[#f0f0f0] origin-left animate-[animate_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0'>
@@ -116,7 +116,7 @@ const Skills = () => {
               className='w-[50%] after:content-["50%"] absolute bg-[#25b79f] h-full origin-left animate-[animate_1s_1s_cubic-bezier(1,0,0.5,1)_forwards] rounded-[10px] scale-x-0  before:absolute before:content-[""] before:h-0 before:w-0 before:border-r-0 before:border-t-[#f0f0f0] before:border-b-0 before:border-[7px] before:border-solid before:border-transparent before:right-0 before:-top-3 after:absolute after:text-[#07374a] after:text-xs after:font-bold after:bg-[#f0f0f0] after:px-2 after:py-px after:rounded-[3px] after:right-0 after:-top-7 bootstrap'></span>
           </div>
         </div>
-
+        
         <div className="mx-auto">
           <div className='text-[#f0f0e6] mb-2'>
             <span className="text-base font-medium">NEXT JS</span>
